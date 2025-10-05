@@ -94,15 +94,19 @@
 
 ---
 
-## VIII. Đề nghị xin ý kiến GV
+## VIII. Sẽ triển khai thêm
 
-1. **Xác nhận** lựa chọn đọc ảnh qua GCS thay vì tải về Drive (tiết kiệm dung lượng & thời gian).
-2. **Metric chính** cho báo cáo: AUROC micro/macro + F1 từng lớp có phù hợp không?
-3. Có cần **thêm nhiệm vụ phụ** (segmentation/Grad‑CAM) ngay ở giai đoạn 2 hay để giai đoạn 3?
+1. **Metric chính** cho báo cáo: AUROC micro/macro + F1 từng lớp có phù hợp không?
+2. Có cần **thêm nhiệm vụ phụ** (segmentation/Grad‑CAM) ngay ở giai đoạn 2 hay để giai đoạn 3?
 
 ---
 
-## IX. Phụ lục
+## IX. Đề nghị xin ý kiến GV
+
+...
+---
+
+## X. Phụ lục
 
 ### A) Sơ đồ luồng dữ liệu (tóm tắt)
 
@@ -121,4 +125,4 @@
 
 - `IMAGE_SIZE = 512`, `BATCH_SIZE = 8`, `NUM_WORKERS = 2`, `subset_frac = 0.02`.
 
-> Báo cáo này phản ánh đúng trạng thái notebook **Stage 1**: đã hoàn thiện luồng IO & tiền xử lý, sẵn sàng bước sang **Stage 2: baseline training**.
+**Stage 2: baseline training**.
